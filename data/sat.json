@@ -1,0 +1,46 @@
+[
+    {
+        "Product": "L08",
+        "Platform": "Landsat ARD",
+        "Description": "Landsat Collection 2 ARD Surface Reflectance - Landsat 8",
+        "RasterType": "Tile",
+        "Resolution": "30m",
+        "TemporalGranularity": "16 day",
+        "Version": "002",
+        "Available": true,
+        "DocLink": "https://www.usgs.gov/landsat-missions/landsat-collection-2-us-analysis-ready-data",
+        "Source": "USGS",
+        "TemporalExtentStart": "2013-03-18",
+        "TemporalExtentEnd": "Present",
+        "Deleted": false,
+        "DOI": "10.5066/P960F8OC",
+        "Info": {
+            "provider_id": "landsat_prod",
+            "platform": "LANDSAT_8",
+            "extension": "tif"
+        },
+        "ProductAndVersion": "L08.002"
+    },
+    {
+        "Product": "L09",
+        "Platform": "Landsat ARD",
+        "Description": "Landsat Collection 2 ARD Surface Reflectance - Landsat 9",
+        "RasterType": "Tile",
+        "Resolution": "30m",
+        "TemporalGranularity": "16 day",
+        "Version": "002",
+        "Available": true,
+        "DocLink": "https://www.usgs.gov/landsat-missions/landsat-collection-2-us-analysis-ready-data",
+        "Source": "USGS",
+        "TemporalExtentStart": "2021-10-31",
+        "TemporalExtentEnd": "Present",
+        "Deleted": false,
+        "DOI": "10.5066/P960F8OC",
+        "Info": {
+            "provider_id": "landsat_prod",
+            "platform": "LANDSAT_9",
+            "extension": "tif"
+        },
+        "ProductAndVersion": "L09.002"
+    }
+]
