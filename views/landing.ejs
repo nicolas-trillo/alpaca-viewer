@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/head.ejs') %>
+</head>
+<body>
+    <div class="hstack">
+        <%- include('partials/nav.ejs') %>
+        <div class="cuerpo">
+            <% for (let i = 0; i < 5; i++) { %>
+                <p>gaboduda</p>
+            <% } %>
+            <form action="/new-req" method="post">
+                <button type="submit">Sub</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
