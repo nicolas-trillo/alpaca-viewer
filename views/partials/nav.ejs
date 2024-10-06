@@ -1,23 +1,5 @@
 <nav>
-    <div>
-        <div class="menu-iten">
-            <h2>Saved Locations</h2>
-            <ul class="menu-content">
-                <% for(let i = 0; i < 5; i++){ %>
-                        <li>Tarea</li>
-                <% } %>
-            </ul>
-        </div> 
-    </div>
-    <div> 
-        <div>         
-            <h2>Explorer</h2>
-            <ul class="menu-content">
-                <li>Location</li>
-                <li>Region</li>
-            </ul>
-        </div> 
-    </div>
-    <div>Account</div>
-    <div>Preferences</div>
+    <a href="/explorer" <% if (active === "explorer") { %>class="sel"<% } %>>Explorer</a>
+    <a href="/saved-locations" <% if (active === "locations") { %>class="sel"<% } %>>Saved Locations</a>
+    <a href="/account" <% if (active === "account") { %>class="sel"<% } %>>Account</a>
 </nav>

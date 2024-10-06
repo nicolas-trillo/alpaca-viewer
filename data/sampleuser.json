@@ -1,0 +1,532 @@
+[
+    {
+        "id": "gabojo",
+        "password": "yelpico",
+        "token": {
+            "token": "(TOKEN)",
+            "expiry": "2024-10-07"
+        },
+        "tasks": [
+            {
+                "tier": 2,
+                "error": null,
+                "params": {
+                    "dates": [
+                        {
+                            "endDate": "01-01-2023",
+                            "startDate": "01-01-2021"
+                        }
+                    ],
+                    "layers": [
+                        {
+                            "layer": "SR_B1",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B2",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B3",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B4",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B5",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B6",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B7",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_PIXEL",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_QA_AEROSOL",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_LINEAGE",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_RADSAT",
+                            "product": "L09.002"
+                        }
+                    ],
+                    "coordinates": [
+                        {
+                            "latitude": 30.0,
+                            "longitude": -97.0
+                        }
+                    ]
+                },
+                "status": "done",
+                "crashed": false,
+                "created": "2024-10-06T21:15:15.565804",
+                "task_id": "a6fa10bf-35e1-4974-af01-d003633ec0c0",
+                "updated": "2024-10-06T21:17:52.366730",
+                "user_id": "nicolastrillo@icloud.com",
+                "attempts": 1,
+                "estimate": {
+                    "request_size": 26,
+                    "request_memory": 1
+                },
+                "retry_at": null,
+                "completed": "2024-10-06T21:17:52.346474",
+                "has_swath": false,
+                "task_name": "version01",
+                "task_type": "point",
+                "api_version": "v1",
+                "svc_version": "3.63",
+                "web_version": null,
+                "has_nsidc_daac": false,
+                "expires_on": "2024-11-05T21:17:52.366730"
+            },
+            {
+                "tier": 2,
+                "error": null,
+                "params": {
+                    "dates": [
+                        {
+                            "endDate": "01-01-2023",
+                            "startDate": "01-01-2021"
+                        }
+                    ],
+                    "layers": [
+                        {
+                            "layer": "SR_B1",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B2",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B3",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B4",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B5",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B6",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B7",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_PIXEL",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_QA_AEROSOL",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_LINEAGE",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_RADSAT",
+                            "product": "L09.002"
+                        }
+                    ],
+                    "coordinates": [
+                        {
+                            "latitude": 30.0,
+                            "longitude": -97.0
+                        }
+                    ]
+                },
+                "status": "done",
+                "crashed": false,
+                "created": "2024-10-06T21:15:15.565804",
+                "task_id": "a6fa10bf-35e1-4974-af01-d003633ec0c0",
+                "updated": "2024-10-06T21:17:52.366730",
+                "user_id": "nicolastrillo@icloud.com",
+                "attempts": 1,
+                "estimate": {
+                    "request_size": 26,
+                    "request_memory": 1
+                },
+                "retry_at": null,
+                "completed": "2024-10-06T21:17:52.346474",
+                "has_swath": false,
+                "task_name": "version01",
+                "task_type": "point",
+                "api_version": "v1",
+                "svc_version": "3.63",
+                "web_version": null,
+                "has_nsidc_daac": false,
+                "expires_on": "2024-11-05T21:17:52.366730"
+            },
+            {
+                "tier": 2,
+                "error": null,
+                "params": {
+                    "dates": [
+                        {
+                            "endDate": "01-01-2023",
+                            "startDate": "01-01-2021"
+                        }
+                    ],
+                    "layers": [
+                        {
+                            "layer": "SR_B1",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B2",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B3",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B4",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B5",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B6",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B7",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_PIXEL",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_QA_AEROSOL",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_LINEAGE",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_RADSAT",
+                            "product": "L09.002"
+                        }
+                    ],
+                    "coordinates": [
+                        {
+                            "latitude": 30.0,
+                            "longitude": -97.0
+                        }
+                    ]
+                },
+                "status": "done",
+                "crashed": false,
+                "created": "2024-10-06T21:15:15.565804",
+                "task_id": "a6fa10bf-35e1-4974-af01-d003633ec0c0",
+                "updated": "2024-10-06T21:17:52.366730",
+                "user_id": "nicolastrillo@icloud.com",
+                "attempts": 1,
+                "estimate": {
+                    "request_size": 26,
+                    "request_memory": 1
+                },
+                "retry_at": null,
+                "completed": "2024-10-06T21:17:52.346474",
+                "has_swath": false,
+                "task_name": "version01",
+                "task_type": "point",
+                "api_version": "v1",
+                "svc_version": "3.63",
+                "web_version": null,
+                "has_nsidc_daac": false,
+                "expires_on": "2024-11-05T21:17:52.366730"
+            }
+        ]
+    },
+    {
+        "id": "trillo",
+        "password": "yelpico",
+        "token": {
+            "token": "(TOKEN)",
+            "expiry": "2024-10-07"
+        },
+        "tasks": [
+            {
+                "tier": 2,
+                "error": null,
+                "params": {
+                    "dates": [
+                        {
+                            "endDate": "01-01-2023",
+                            "startDate": "01-01-2021"
+                        }
+                    ],
+                    "layers": [
+                        {
+                            "layer": "SR_B1",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B2",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B3",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B4",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B5",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B6",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B7",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_PIXEL",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_QA_AEROSOL",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_LINEAGE",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_RADSAT",
+                            "product": "L09.002"
+                        }
+                    ],
+                    "coordinates": [
+                        {
+                            "latitude": 30.0,
+                            "longitude": -97.0
+                        }
+                    ]
+                },
+                "status": "done",
+                "crashed": false,
+                "created": "2024-10-06T21:15:15.565804",
+                "task_id": "a6fa10bf-35e1-4974-af01-d003633ec0c0",
+                "updated": "2024-10-06T21:17:52.366730",
+                "user_id": "nicolastrillo@icloud.com",
+                "attempts": 1,
+                "estimate": {
+                    "request_size": 26,
+                    "request_memory": 1
+                },
+                "retry_at": null,
+                "completed": "2024-10-06T21:17:52.346474",
+                "has_swath": false,
+                "task_name": "version01",
+                "task_type": "point",
+                "api_version": "v1",
+                "svc_version": "3.63",
+                "web_version": null,
+                "has_nsidc_daac": false,
+                "expires_on": "2024-11-05T21:17:52.366730"
+            },
+            {
+                "tier": 2,
+                "error": null,
+                "params": {
+                    "dates": [
+                        {
+                            "endDate": "01-01-2023",
+                            "startDate": "01-01-2021"
+                        }
+                    ],
+                    "layers": [
+                        {
+                            "layer": "SR_B1",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B2",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B3",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B4",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B5",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B6",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B7",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_PIXEL",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_QA_AEROSOL",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_LINEAGE",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_RADSAT",
+                            "product": "L09.002"
+                        }
+                    ],
+                    "coordinates": [
+                        {
+                            "latitude": 30.0,
+                            "longitude": -97.0
+                        }
+                    ]
+                },
+                "status": "done",
+                "crashed": false,
+                "created": "2024-10-06T21:15:15.565804",
+                "task_id": "a6fa10bf-35e1-4974-af01-d003633ec0c0",
+                "updated": "2024-10-06T21:17:52.366730",
+                "user_id": "nicolastrillo@icloud.com",
+                "attempts": 1,
+                "estimate": {
+                    "request_size": 26,
+                    "request_memory": 1
+                },
+                "retry_at": null,
+                "completed": "2024-10-06T21:17:52.346474",
+                "has_swath": false,
+                "task_name": "version01",
+                "task_type": "point",
+                "api_version": "v1",
+                "svc_version": "3.63",
+                "web_version": null,
+                "has_nsidc_daac": false,
+                "expires_on": "2024-11-05T21:17:52.366730"
+            },
+            {
+                "tier": 2,
+                "error": null,
+                "params": {
+                    "dates": [
+                        {
+                            "endDate": "01-01-2023",
+                            "startDate": "01-01-2021"
+                        }
+                    ],
+                    "layers": [
+                        {
+                            "layer": "SR_B1",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B2",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B3",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B4",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B5",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B6",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_B7",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_PIXEL",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "SR_QA_AEROSOL",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_LINEAGE",
+                            "product": "L09.002"
+                        },
+                        {
+                            "layer": "QA_RADSAT",
+                            "product": "L09.002"
+                        }
+                    ],
+                    "coordinates": [
+                        {
+                            "latitude": 30.0,
+                            "longitude": -97.0
+                        }
+                    ]
+                },
+                "status": "done",
+                "crashed": false,
+                "created": "2024-10-06T21:15:15.565804",
+                "task_id": "a6fa10bf-35e1-4974-af01-d003633ec0c0",
+                "updated": "2024-10-06T21:17:52.366730",
+                "user_id": "nicolastrillo@icloud.com",
+                "attempts": 1,
+                "estimate": {
+                    "request_size": 26,
+                    "request_memory": 1
+                },
+                "retry_at": null,
+                "completed": "2024-10-06T21:17:52.346474",
+                "has_swath": false,
+                "task_name": "version01",
+                "task_type": "point",
+                "api_version": "v1",
+                "svc_version": "3.63",
+                "web_version": null,
+                "has_nsidc_daac": false,
+                "expires_on": "2024-11-05T21:17:52.366730"
+            }
+        ]
+    }
+]

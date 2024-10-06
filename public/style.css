@@ -1,10 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --grey-1: rgb(108 108 112);
+    --grey-2: rgb(142 142 147);
+    --grey-3: rgb(174 174 178);
+    --grey-4: rgb(188 188 192);
+    --grey-5: rgb(216 216 220);
+    --grey-6: rgb(235 235 240);
+    --blue: rgb(0 122 255);
+    --red: rgb(255 59 48);
+
+}
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Public Sans", system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Roboto, sans-serif;
-    /* outline: 1px solid limegreen; */
+    /* outline: 2px solid limegreen; */
 
     /* color: rgb(177 175 166); */
 }
@@ -17,39 +28,75 @@
     flex-direction: column;
     gap: 10px;
 }
-.error {
-    color: #eb4e3e;
-    font-weight: 600;
-}
 a {
-    color: #3478f6;
+    color: var(--blue);
 }
 body {
     height: 100vh;
     padding: 10px;
+    align-items: stretch;
 }
-
+.cuerpo {
+    flex-grow: 2;
+    overflow: scroll;
+}
 nav {
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-color: var(--grey-5);
+    border: 2px solid var(--grey-4);
+    border-radius: 15px;
     width: 20vw;
-    height: 98vh;
     padding: 10px;
-    gap: 25px;
+    gap: 10px;
 }
-
-.menu-item:hover .menu-content {
-    display: block;
+nav a {
+    color: black;
+    outline: 2px solid transparent;
+    outline-offset: -2px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.2s ease;
 }
-
-.menu-content li:hover {
-    background-color: #ccc;
+nav a:hover:not(.sel) {
+    background-color: var(--grey-3);
+    outline: 2px solid rgba(0, 0, 0, 0.1);
 }
-
-.menu-content{
-    list-style-type: none;
-    margin: 0;
+nav .sel, nav a:active {
+    background-color: var(--blue);
+    color: white;
+    outline: 2px solid rgba(0, 0, 0, 0.1);
+}
+table, th, td {
+    padding: 10px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: var(--grey-6);
+}
+table {
     padding: 0;
-    display: none;
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 620px;
+    overflow-x: scroll;
+}
+/* * {
+    outline: 2px solid limegreen;
+} */
+.error {
+    color: var(--red);
+    font-weight: 600;
+}
+.loginform {
+    width: 300px;
+}
+.loginform input {
+    font-family: monospace;
+}
+.loginform input, .loginform button {
+    padding: 10px;
 }

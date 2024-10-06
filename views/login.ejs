@@ -1,0 +1,34 @@
+<%- include('partials/header.ejs', {active: ""})%>
+<h2>Login or sign up</h2>
+<p class="error"><%- message %></p>
+<div class="login-container hstack">
+    <form action="" class="loginform vstack">
+        <h3>Login</h3>
+        <input type="text" name="user" id="user" placeholder="username" />
+        <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="password"
+        />
+        <button type="submit">Login</button>
+    </form>
+    <form action="/login" method="post" class="loginform vstack">
+        <h3>Sign up</h3>
+        <input type="text" name="user" id="user" placeholder="username" />
+        <input
+            type="text"
+            name="password"
+            id="password"
+            placeholder="password"
+        />
+        <input
+            type="text"
+            name="token"
+            id="token"
+            placeholder="AppEEARS token"
+        />
+        <button type="submit">Sign up</button>
+    </form>
+</div>
+<%- include('partials/footer.ejs') %>

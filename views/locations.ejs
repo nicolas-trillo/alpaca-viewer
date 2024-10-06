@@ -1,0 +1,45 @@
+<%- include('partials/header.ejs', {active: "locations"})%>
+    <h1>Saved Locations</h1>
+    <div class="locations-container">
+        <table style="width:100%">
+            <tr>
+              <th>Tag</th>
+              <th>ID</th>
+              <th>Date</th>
+              <th></th>
+            </tr>
+            <% user.tasks.forEach(task => { %>
+                <tr>
+                    <td><%- task.task_name %></td>
+                    <td><%- task.task_id %></td>
+                    <td><%- task.params.dates[0].endDate %></td>
+                    <td><a href="/explorer/<%- task.task_id %>">Access</a></td>
+                </tr>
+            <% }); %>
+            <tr>
+              <td>Texas</td>
+              <td>a6fa10bf-35e1-4974-af01-d003633ec0c0</td>
+              <td>2024-10-06</td>
+              <td><a href="" class="">Access</a></td>
+            </tr>
+            <tr>
+              <td>Peru</td>
+              <td>a3f77c2f-4a6d-4ea5-a294-e3041a1ab9b0</td>
+              <td>2024-10-06</td>
+              <td><a href="" class="">Access</a></td>
+            </tr>
+            <tr>
+              <td>Chile</td>
+              <td>ad053a4e-a09f-45cd-8434-95edbf6ff0c2</td>
+              <td>2024-10-06</td>
+              <td><a href="" class="">Access</a></td>
+            </tr>
+            <tr>
+              <td>Canada</td>
+              <td>b1991ba7-88b8-498b-bb4a-a031ecebc113</td>
+              <td>2024-10-06</td>
+              <td><a href="" class="">Access</a></td>
+            </tr>
+          </table>
+    </div>
+<%- include('partials/footer.ejs') %>
